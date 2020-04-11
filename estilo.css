@@ -1,0 +1,235 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/* Início do código */
+
+body {
+	margin: 0;
+	font-family: Courier New, monospace;
+    background: linear-gradient(to bottom, #000, #8949D8);
+    filter: blur(2);
+}
+
+/* Parte superior */
+nav {
+	z-index: 2;
+}
+
+#imdb {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 5;
+}
+
+#menu {
+	text-align: center;
+	width: 100%px;
+
+	/*Posição/tamanho do texto*/
+	margin: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#menu a {
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color: purple;
+	box-shadow: inset 0 -1px 0 purple;
+}
+
+.usuario {
+	color: white;
+	border-radius: 50px;
+	position: absolute;
+	top: 5px;
+	right: 120px;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.foto-user {
+	border:1px solid gray;
+	width: 60px;
+	height: 60px;
+	border-radius: 90px;
+	size: cover;
+	position: absolute;
+	top: 10px;
+	right: -75px;
+}
+
+/* Destaque */
+
+#destaque {
+	width: 100%;
+	height: 500px;
+	background: url(https://images8.alphacoders.com/100/1003220.png) no-repeat;
+	background-position: center top;
+	background-size: cover;
+	color: white;
+	position: relative;
+	margin: 0px;
+}
+
+.destaque {
+	color: white;
+	padding: 250px 10px 0px 0px;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: right;
+}
+
+.sinopse {
+	margin: 0px;
+	text-align: right;
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 15px;
+}
+
+.sinopse a {
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 15px;
+}
+
+.sinopse a:hover {
+	border: 1px solid purple;
+	text-decoration: none;
+	padding: 10px;
+	color: purple;
+}
+
+.trailer {
+	border: 2px solid purple;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	padding: 15px;
+	font-size: 16px;
+	color: purple;
+	border-radius: 50px;
+	position: absolute;
+	top: 50px;
+	right: 20px;
+}
+
+.trailer:hover {
+	color: purple;
+	font-size: 18px;
+}
+
+/* Menu catalogo */
+
+#menu-catalogo {
+	width: 100%;
+	height: 65px;
+}
+
+.catalogo {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 25px;
+}
+
+.catalogo a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	margin: 25px;
+	font-size: 18px;
+}
+
+.catalogo a:hover {
+	color: purple;
+	font-size: 20px;
+	border: 2px solid purple;
+	border-radius: 100px;
+}
+
+/* cartazes votação */
+
+#main-catalogo {
+	width: 75%;
+	height: 1970px;
+	margin: 0 auto;
+}
+
+#catalogo-item {
+	background-color: rgba(92,90,90,0.7);
+	border-radius: 15px;
+	width: 30.3%;
+	height: 610px;
+	margin: 4px;
+	padding: 10px;
+	float: left;
+}
+
+.img {
+	width: 100%;
+	height: 70%;
+	border-radius: 14px;
+}
+
+.img:hover {
+	background-image: url(imagens/play.png) no-repeat;
+	opacity: 0.5;
+	z-index: 1;
+	visibility: visible;
+}
+
+.item {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	margin: 0px;
+}
+
+.genero {
+	text-decoration: none;
+	text-align: left;
+	color: yellow;
+	margin: 0px;
+}
+
+/* NOTA */
+
+.nota {
+	color: white;
+	font-style: bold;
+	font-size: 20px;
+	padding: 15px;
+	border: 2px solid white;
+	border-radius: 100px;
+	margin: 0px;
+	text-align: center;
+}
+
+/* Rodapé */
+
+#redes-sociais {
+	width: 300px;
+	height: 50px;
+	text-align: center;
+	position: relative;
+	float: right;
+	right: 100px;
+}
+
+.redes-sociais-logo {
+	width: 40px;
+	height: 40px;	
+}

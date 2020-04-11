@@ -1,0 +1,3 @@
+// Código para executar meu score
+
+C:\Users\eucli\OneDrive\Documents\Codenation\appcode\codenation.exe
